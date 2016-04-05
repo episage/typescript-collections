@@ -80,5 +80,3 @@ temp/
 /typings
 *.log
 *.tgz
-
-./dist

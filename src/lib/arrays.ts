@@ -215,7 +215,7 @@ export function findAll<T>(array: T[], callback: util.ILoopFunction<T>): T[] {
     if (!array) {
         return null;
     }
-    var matches = [];
+    var matches: T[] = [];
     for (var index = 0; index < array.length; index++) {
         var item = array[index];
         if (callback(item)) {
